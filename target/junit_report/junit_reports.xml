@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="50.604">
+<testcase classname="Actitime Login Feature" name="ActiTime Login Page title" time="15.38">
+<system-out><![CDATA[Given User is on the login page.............................................passed
+When User gets the title of the page........................................passed
+Then Title of login page should be "actiTIME - Login".......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tasks Page Feature" name="Dashboard page title" time="17.521">
+<system-out><![CDATA[Given User has already logged in to application.............................passed
+Given User is on dashboard page.............................................passed
+When User gets the title of the page........................................passed
+Then Page title should be "actiTIME - Enter Time-Track".....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Tasks Page Feature" name="Dashboard page tabs" time="17.44">
+<system-out><![CDATA[Given User has already logged in to application.............................passed
+Given User is on dashboard page.............................................passed
+Then User gets dashboard....................................................passed
+And Tabs count should be 4..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
